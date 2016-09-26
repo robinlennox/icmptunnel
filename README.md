@@ -17,7 +17,7 @@ First, disable ICMP echo responses on both the client and server. This prevents 
 
 On the server-side, start icmptunnel in server mode, and assign an IP address to the new tunnel interface.
 
-    # ./icmptunnel –s
+    # ./icmptunnel -s
     opened tunnel device: tun0
     (ctrl-z)
     # bg
